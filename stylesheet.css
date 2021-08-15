@@ -4,4 +4,4 @@ body {background-color: #706251; text-align: center; }
 .tabs a:hover {background-color: #8B4513; }
 .tabs a:visited {color: white; }
 .image {width: 50%; float: left; }
-.information {width: 50%; float: right; color: #87CEFA; }
+.information {width: 50%; float: right; color: #87CEFA; font-size: 15px; }
