@@ -3,5 +3,5 @@ body {background-color: #706251; text-align: center; }
 .tabs a {float: left; color: white; text-align: center; padding: 14px 16px; font-size: 20px; }
 .tabs a:hover {background-color: #8B4513; }
 .tabs a:visited {color: white; }
-.images {width: 50%; float: left; }
+.image {width: 50%; float: left; }
 .information {width: 50%; }
