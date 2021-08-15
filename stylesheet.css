@@ -5,3 +5,7 @@ body {background-color: #706251; text-align: center; }
 .tabs a:visited {color: white; }
 .image {width: 50%; float: left; color: #87CEFA; font-size: 20px; }
 .information {width: 50%; float: right; color: #87CEFA; font-size: 20px; }
+.content {text-align: left; color: #87CEFA; }
+a:hover {color: blue; }
+a {color: #87CEFA; }
+a:visited {color: #87CEFA; }
