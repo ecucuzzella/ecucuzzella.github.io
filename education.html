@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>Elizabeth C. Education</title>
+        <meta name = "keywords" content = "portfolio, data, science, research, mathematics, programming, Elizabeth" />
+        <link rel = "stylesheet" href = "style.css" />
+        
+        <script>
+            function updateContent() {
+                var selection = document.getElementById("educationinstitutions");
+                var selectionval = selection.value;
+                
+                var content = document.getElementById("content");
+                if (selectionval == "highschool") {
+                    content.innerHTML = "<h3>The Bryn Mawr School for Girls</h3><h4>High School Diploma with STEM Pathway | Baltimore, MD | 2016-2020</h4><ul><li>Graduated Cum Laude with a GPA of 97</li><li>Completed a capstone in data analytics for STEM pathway</li><li>It's Academic captain, editor-in-chief of the school newspaper, and cross country captain</li><li>Recipient of the Edith Hamilton Scholarship</li></ul>";
+                }
+                if (selectionval == "undergraduate") {
+                    content.innerHTML = "<h3>Tufts University</h3><h4>B.S. in Data Science and B.A. in Mathematics | Boston, MA | 2020-2024</h4><ul><li>Graduated Summa Cum Laude with a cumulative GPA of 3.9</li><li>Coordinated Green Dot and served as director of engineering for the National Student Data Corps</li><li>Concentrated in environmental data analytics</li><li>Notable courses include Mathematical Aspects of Data Analytics, Statistics, and Numerical Linear Algebra</li></ul>";
+                }
+                if (selectionval == "graduate") {
+                    content.innerHTML = "<h3>Carnegie Mellon University</h3><h4>PhD in Statistics | Pittsburgh, PA | 2024-</h4>";
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <a href = "index.html"><div class = "heading"></div></a>
+        
+        <h1>Educational History</h1>
+        <select id = "educationinstitutions" onchange = "updateContent()">
+            <option value = "highschool">High School</option>
+            <option value = "undergraduate">Undergraduate</option>
+            <option value = "graduate">Graduate</option>
+        </select>
+        <div id = "content">
+            <h3>The Bryn Mawr School for Girls</h3>
+            <h4>High School Diploma with STEM Concentration | Baltimore, MD | 2016-2020</h4>
+            <ul><li>Graduated Cum Laude with a GPA of 97</li><li>Completed a capstone in data analytics for STEM pathway</li><li>It's Academic captain, editor-in-chief of the school newspaper, and cross country captain</li><li>Recipient of the Edith Hamilton Scholarship</li></ul>
+        </div>
+    </body>
+</html>
