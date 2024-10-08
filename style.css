@@ -41,6 +41,7 @@ h1 {
 }
 a:hover, a:visited:hover {
     color: #61b7cf;
+    font-size: 17px;
     text-decoration: underline;
 }
 a, a:visited {
